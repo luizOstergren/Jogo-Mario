@@ -15,10 +15,20 @@
     background: linear-gradient(#87CEEB, #E0F6FF);
 }
 
+#counter{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 100px;
+    top: 120px;
+    left: 600px;
+}
+
 .pipe{
     position: absolute;
     bottom: 0;
     width: 80px;
+    /* left: 120px; */
     animation: pipe-animation infinite 1.5s linear;
 }
 
@@ -50,14 +60,14 @@
 }
 
 .hidden{
-    opacity: 0;
+    display: none;
 }
 
 p{
     position: absolute;
     top:50px;
     left: 50px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 @keyframes pipe-animation{
